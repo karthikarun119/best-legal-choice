@@ -1,0 +1,46 @@
+.work-wrapper {
+  display: flex;
+}
+.working-details {
+  white-space: nowrap;
+  width: 550px;
+  height: 440px;
+  margin: 20px 10px 0px 30px;
+  padding: 20px 10px 0px 30px;
+}
+.work-heading {
+  font-size: 24px;
+}
+.work-detail {
+  padding: 20px;
+}
+.work-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.work-description {
+  font-size: 14px;
+  margin-left: 26px;
+}
+.work-txt{
+    margin-left: 10px;
+}
+.outer-circle {
+  background: rgb(6, 170, 243, 0.2);
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.inner-circle {
+  position: absolute;
+  background: rgb(6, 170, 243);
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  top: 50%;
+  left: 50%;
+  margin: -4px 0px 0px -4px;
+}

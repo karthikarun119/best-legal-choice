@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Dashboard from "./Components/Dashboard/Dashboard";
+import LegalServices from "./Components/LegalServices/LegalServices";
+import Header from "./Components/Header.js/Header";
+import HowItWorks from "./Components/HowItWorks.js/HowItWorks";
+import SearchAttorneys from "./Components/SearchAttorneys/SearchAttorneys";
+import BrowseCategories from "./Components/BrowseCategories/BrowseCategories";
+import TopAttorneys from "./Components/TopAttorneys/TopAttorneys";
+import Articles from "./Components/Articles/Articles";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header />
+      <Dashboard />
+      <LegalServices />
+      <HowItWorks />
+      <SearchAttorneys/>
+      <BrowseCategories/>
+      <TopAttorneys/>
+      <Articles/>
+      <Footer/>
     </div>
   );
 }
